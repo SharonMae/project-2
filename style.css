@@ -23,11 +23,12 @@
   }
   ::-webkit-scrollbar {
   height: 12px;
-  width: 8px;
-  background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url("background.jpg");
+  width: 6px;
+  /* background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url("background.jpg"); */
+  background: white;
   }
   ::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: black;
   -webkit-box-shadow: white(0, 0, 0, 0.75);
   }
   ::-webkit-scrollbar-corner {
