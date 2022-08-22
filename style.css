@@ -633,7 +633,8 @@
 #trusted a{
     padding:0 1.5rem;
     display:block;
-    color:#8391a7
+    /* color:#8391a7; */
+    color: rgb(34, 34, 34);
 }
 #trusted a svg{
     display:block
