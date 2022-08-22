@@ -583,7 +583,7 @@
 
 
 
-  .slider {
+  /* .slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
   height: 100px;
@@ -624,8 +624,31 @@
   .slider .slide {
   height: 100px;
   width: 250px;
-  }
+  } */
 
+  #trusted{
+    padding:3rem 0;
+    background:#f9fafb
+}
+#trusted a{
+    padding:0 1.5rem;
+    display:block;
+    color:#8391a7
+}
+#trusted a svg{
+    display:block
+}
+@media all and (max-width: 768px){
+    #trusted a svg{
+        display:block;
+        max-width:140px;
+        margin:0 auto;
+        margin-bottom:.75rem
+    }
+    #trusted .row{
+        display:block !important
+    }
+}
 
 
 
