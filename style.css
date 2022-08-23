@@ -733,6 +733,7 @@
   align-items: center;
   white-space: nowrap;
   margin: 15px 0;
+  text-decoration: none;
   }
 
   .footer section a:hover {
