@@ -378,7 +378,9 @@
 
 
   .banner {
-  width: 100%;
+  /* width: 100%; */
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -624,6 +626,7 @@
 
 
   #trusted{
+    border-top: 1px solid lightgrey;
     padding:3rem 0;
     background:#f9fafb
 }
