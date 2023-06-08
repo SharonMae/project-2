@@ -318,7 +318,7 @@
   }
 
   .topnav a:hover, .dropdown:hover .dropbtn {
-  color: var(--white);
+  color: black
   }
 
   .dropdown-content a:hover {
@@ -349,11 +349,18 @@
   @media screen and (max-width: 1000px) {
   .topnav.responsive {position: relative;}
 
+  .topnav .icon {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    margin: 20px 10px;
+  }
+
   .topnav.responsive a {
   float: none;
   display: block;
-  text-align: left;
-  margin: 10px 0;
+  align-items: center;
   }
   .dropdown-content:before {
   display:none;
@@ -370,6 +377,9 @@
   margin:0;
   }
   }
+
+  
+
 
 
 
@@ -398,7 +408,8 @@
   }
 
   .banner section .title {
-  font-weight:200;
+  font-weight: 200;
+  font-size: 4em;
   }
 
   .banner section .sub-title {
@@ -415,6 +426,13 @@
   .banner section em {
   line-height:1;
   }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .banner section .title {
+        font-weight: 200;
+        font-size: 3em;
+    }
   }
 
 
@@ -447,6 +465,7 @@
   }
 
   .section2 section .title {
+  font-weight: 200;  
   font-size: 2em;
   }
 
@@ -491,6 +510,7 @@
   }
 
   .section3 section .title {
+  font-weight: 200;  
   font-size: 2em;
   }
 
